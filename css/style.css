@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* font-family: 'Poppins', sans-serif; */
+body{
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+}
+.form_design{
+
+width: 80%;
+
+margin: 100px auto;
+
+display: flex;
+
+border-radius: 15px;
+
+overflow: hidden;
+
+box-shadow: 9px 8px 9px 0px #d1d1d1;
+}
+.form_part{
+
+width: 55%;
+
+background: #e8edf0;
+
+padding: 50px;
+
+/* border-radius: 15px; */
+}
+.full_name{
+
+display: flex;
+
+justify-content: space-between;
+}
+.fname{
+
+width: 48%;
+}
+.lname{
+
+width: 48%;
+}
+h2{
+    margin-bottom: 30px;
+}
+form label{
+    
+text-transform: uppercase;
+    
+font-weight: 600;
+    
+margin-bottom: 10px !important;
+    
+display: block;
+}
+form input{
+    font-family: 'Poppins', sans-serif;
+border: none;
+
+padding: 15px 0px;
+
+width: 100%;
+
+margin-bottom: 20px;
+}
+
+form input[type="submit"]{
+    font-family: 'Poppins', sans-serif;
+background: #2553b8;
+    
+color: #fff;
+    
+width: auto;
+    
+padding: 15px 20px;
+    
+border-radius: 5px;
+}
+form input[type="submit"]:hover{
+    background-color: #0c2a69;
+}
+form input::placeholder{
+    color: #c7c7c7;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+form textarea::placeholder{
+    color: #c7c7c7;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+form textarea{
+
+    border: none;
+    
+    padding: 15px 0px;
+    
+    width: 100%;
+    
+    margin-bottom: 20px;
+    }
+.map{
+
+width: 45%;
+}
+.map .iframe{
+
+}
